@@ -1,7 +1,6 @@
 public class solve {
     public static int maxProfit(int[] prices) {
-        int minprice = Integer.MAX_VALUE;
-        int maxprofit= 0;
+        int minprice = Integer.MAX_VALUE , maxprofit= 0;
         for (int price : prices) {
             if (price < minprice) {
                 minprice = price;
